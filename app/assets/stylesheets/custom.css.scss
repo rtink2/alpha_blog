@@ -1,0 +1,52 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #17a2b8;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+#logo:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-image: asset-url('typewriter.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+}
+
+#home-container {
+    padding-top: 100px;
+}
+
+#home {
+    margin-top: 200px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #f1d29f;
+  background: linear-gradient(to right, #f1d29f, #f5e5cc);
+}
